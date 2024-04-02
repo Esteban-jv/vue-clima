@@ -1,5 +1,6 @@
 :root {
   --blanco: #fff;
+  --negro: #000;
   --primary: #f59e0b;
 }
 html {
@@ -53,6 +54,9 @@ body {
   color: var(--blanco);
   font-weight: 400;
   font-size: 1.8rem;
+}
+.formulario select option {
+  color: var(--negro)
 }
 .formulario input[type="submit"] {
   background-color: var(--primary);
